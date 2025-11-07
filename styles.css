@@ -1,42 +1,32 @@
 /*  your css code here. If applicable */
-/* Page heading centered */
-.page-title {
-  text-align: center;                 /* center heading text */
-  font-family: Georgia, "Times New Roman", serif;
-  margin: 16px 0 10px;
+h1
+{
+	text-align: center;
 }
 
-/* All tables with class `middle` share these styles */
-table.middle {
-  width: 90%;
-  margin: 0 auto;                     /* center the table on page */
-  border-collapse: separate;
-    border-spacing: 1px;
-    border: 1px solid black;  font-family: system-ui, Arial, sans-serif;
-  font-size: 14px;
+table
+{
+	width: 100%
 }
 
-/* Cell borders and spacing */
-table.middle td {
-    border: 1px solid black;  
-    padding: 1px;
+table, td
+{
+	border: 1px solid black;
+	border-spacing: 1px;
+	padding: 1px;
 }
 
-/* Alignment utility classes for cells/rows */
-.left   { text-align: left; }         /* align left */
-.center { text-align: center; }       /* align center */
-.right  { text-align: right; }        /* align right */
-
-/* Optional subtle aesthetics */
-table.middle tr:nth-child(even) td { background: #f7f7f7; }
-table.middle tr:nth-child(odd)  td { background: #fff; }
-
-
-/* Background colors for rows */
-/* Background colors for rows */
-.green td {
-    background-color: green !important;
+.center
+{
+	text-align: center;
 }
-.blue td {
-    background-color: blue !important;
+
+.right
+{
+	text-align:right;
+}
+
+#table-2 td
+{
+	height: 16px
 }
